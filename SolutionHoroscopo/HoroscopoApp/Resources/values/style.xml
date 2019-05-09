@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ThemeAstrologyApp" parent ="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+     <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">#555555</item>
+        <item name="colorAccent">#555555</item>
+        <item name="colorControlNormal">#555555</item>
+    </style>
+    <style name="Theme_Dialog_Translucent" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

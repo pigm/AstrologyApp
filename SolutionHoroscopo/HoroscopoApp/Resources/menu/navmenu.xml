@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item>
+        <item android:id="@+id/nav_aries" android:title="Aries" />
+    </item>
+    <item>
+        <item android:id="@+id/nav_tauro" android:title="Tauro"/>
+    </item>    
+    <item>
+        <item android:id="@+id/nav_geminis" android:title="Géminis"/>
+    </item>
+    <item>
+        <item android:id="@+id/nav_cancer" android:title="Cáncer"/>
+     </item>     
+    <item>
+        <item android:id="@+id/nav_leo" android:title="Leo" />
+    </item>
+    <item>
+        <item android:id="@+id/nav_virgo" android:title="Virgo"/>
+    </item>    
+    <item>
+        <item android:id="@+id/nav_libra" android:title="Libra"/>
+    </item>
+    <item>
+        <item android:id="@+id/nav_escorpion" android:title="Escorpión"/>
+    </item>
+    
+    <item>s
+        <item android:id="@+id/nav_sagitario" android:title="Sagitario" />
+    </item>
+    <item>
+        <item android:id="@+id/nav_capricornio" android:title="Capricornio"/>
+    </item>    
+    <item>
+        <item android:id="@+id/nav_acuario" android:title="Acuario"/>
+    </item>
+    <item>
+        <item android:id="@+id/nav_piscis" android:title="Piscis"/>
+    </item>
+</menu>

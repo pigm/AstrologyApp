@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentacion", "01. Presentacion", "{E178F25F-6C87-42CB-88F8-241318284137}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Transversal", "02. Transversal", "{1BB29CFA-1B4A-4E02-B20A-09373795D481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Service", "03. Service", "{FF8BB509-C63E-4B6A-AFC2-19FE373E74A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoroscopoApp.Service", "HoroscopoApp.Service\HoroscopoApp.Service.csproj", "{1DDDC0C2-6E88-44F1-A029-BBAF243D31B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoroscopoApp.Utils", "HoroscopoApp.Utils\HoroscopoApp.Utils.csproj", "{952E942E-B8CB-49B3-9FFD-78AE0F7DC852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Datos", "04. Datos", "{26F1DE35-16B0-4439-A243-B4F0E02634D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoroscopoApp.Models", "HoroscopoApp.Models\HoroscopoApp.Models.csproj", "{EA989107-6F76-49E9-B3FE-EF4DB8B0B69B}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "HoroscopoApp", "HoroscopoApp\HoroscopoApp.csproj", "{79F324D7-EB38-42DE-99E2-D8297215360C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DDDC0C2-6E88-44F1-A029-BBAF243D31B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDDC0C2-6E88-44F1-A029-BBAF243D31B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDDC0C2-6E88-44F1-A029-BBAF243D31B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDDC0C2-6E88-44F1-A029-BBAF243D31B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952E942E-B8CB-49B3-9FFD-78AE0F7DC852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952E942E-B8CB-49B3-9FFD-78AE0F7DC852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952E942E-B8CB-49B3-9FFD-78AE0F7DC852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952E942E-B8CB-49B3-9FFD-78AE0F7DC852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA989107-6F76-49E9-B3FE-EF4DB8B0B69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA989107-6F76-49E9-B3FE-EF4DB8B0B69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA989107-6F76-49E9-B3FE-EF4DB8B0B69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA989107-6F76-49E9-B3FE-EF4DB8B0B69B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F324D7-EB38-42DE-99E2-D8297215360C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F324D7-EB38-42DE-99E2-D8297215360C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F324D7-EB38-42DE-99E2-D8297215360C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F324D7-EB38-42DE-99E2-D8297215360C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DDDC0C2-6E88-44F1-A029-BBAF243D31B4} = {FF8BB509-C63E-4B6A-AFC2-19FE373E74A4}
+		{952E942E-B8CB-49B3-9FFD-78AE0F7DC852} = {1BB29CFA-1B4A-4E02-B20A-09373795D481}
+		{EA989107-6F76-49E9-B3FE-EF4DB8B0B69B} = {26F1DE35-16B0-4439-A243-B4F0E02634D2}
+		{79F324D7-EB38-42DE-99E2-D8297215360C} = {E178F25F-6C87-42CB-88F8-241318284137}
+	EndGlobalSection
+EndGlobal
